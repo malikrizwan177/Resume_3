@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply w-full bg-[#24272C] h-lvh
+}
+
+.mbg {
+  @apply bg-[#232732]
+}
+
+.mborder {
+  box-shadow: rgb(28, 31, 34) 10px 10px 10px 0px inset, inset -6px -6px 10px 5px rgba(63, 69, 77, 0.5);
+}
+
+.contactinput {
+  box-shadow: rgb(28, 31, 34) 3px 3px 3px 2px inset, inset -3px -3px 3px 1px rgba(63, 69, 77, 0.5);
+}
+
+.navshadow {
+  box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 3.2px, rgba(63, 69, 77, 0.5) -3px -3px 4px;
+}
+
+.navshadow:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 12px 12px 10px, rgba(63, 69, 77, 0.5) -3px -3px 4px;
+}
+
+.heroImgshadow {
+  box-shadow: rgba(0, 0, 0, 0.15) 20px 20px 15px, rgba(63, 69, 77, 0.5) -10px -10px 15px;
+}
+
+.btn {
+  @apply py-2 rounded-2xl shadow-lg bg-[#24272C] navshadow w-[120px] text-center hover:-translate-y-2 duration-500
+}
+
+.heading {
+  @apply font-bold text-2xl lg:text-3xl text-white
+}
+
+hr {
+  @apply w-full h-3 bg-blue-950 rounded-full border-blue-950 navshadow my-3 duration-500
+}
+
+.project_button {
+  @apply rounded-full py-2 px-4 md:py-3 md:px-5 lg:py-4 lg:px-6 shadow-lg bg-[#24272C] navshadow text-white font-bold md:text-xl hover:-translate-y-2 duration-500
+}
+
+.rotate-45 {
+  @apply rotate-[45deg];
+}
+
+.rotate-90 {
+  @apply rotate-[90deg];
+}
+
+.rotate-135 {
+  @apply rotate-[135deg];
+}
+
+.rotate-180 {
+  @apply rotate-[180deg];
+}
+
+.rotate-225 {
+  @apply rotate-[225deg];
+}
+
+.rotate-270 {
+  @apply rotate-[270deg];
+}
+
+.rotate-315 {
+  @apply rotate-[315deg];
+}
+
+.rotate-360 {
+  @apply rotate-[360deg];
+}
+
+.-rotate-45 {
+  @apply rotate-[-45deg];
+}
+
+.-rotate-90 {
+  @apply rotate-[-90deg];
+}
+
+.-rotate-135 {
+  @apply rotate-[-135deg];
+}
+
+.-rotate-180 {
+  @apply rotate-[-180deg];
+}
+
+.-rotate-225 {
+  @apply rotate-[-225deg];
+}
+
+.-rotate-270 {
+  @apply rotate-[-270deg];
+}
+
+.-rotate-315 {
+  @apply rotate-[-315deg];
+}
+
+.-rotate-360 {
+  @apply rotate-[-360deg];
+}
+
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
