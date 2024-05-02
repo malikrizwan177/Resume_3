@@ -5,7 +5,7 @@ import { experiences } from '.'
 
 const Experience = () => {
   return (
-    <section>
+    <section id='experience'>
         <div className="py-10 md:py-20 lg:py-32 lg:px-20 flex flex-col">
         <p className="heading">Experience</p>
         <hr />

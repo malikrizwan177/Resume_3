@@ -8,7 +8,7 @@ const Skills = () => {
   const [centerImage, setCenterImage] = useState(vite);
 
   return (
-    <section className="py-10 md:py-20 lg:py-32 lg:px-20">
+    <section id="skills" className="py-10 md:py-20 lg:py-32 lg:px-20">
       <p className="heading">Skills</p>
       <hr />
       <div className="relative mt-16 left-1/2 flex w-[12rem] sm:w-[14rem] md:w-[17rem] lg:w-[25rem] aspect-square border border-gray-700 rounded-full -translate-x-1/2 scale:75 md:scale-100 ">

@@ -53,7 +53,7 @@ const Contact = () => {
   };
 
   return (
-    <section>
+    <section id="contact">
       <div className="py-10 md:py-20 lg:py-32 lg:px-20 flex flex-col">
         <p className="heading">Contact Me</p>
         <hr />

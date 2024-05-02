@@ -13,13 +13,13 @@ export const Nav = [
   },
   {
     id: 3,
-    title: "Certificate",
-    link: "#certificate",
+    title: "Skills",
+    link: "#skills",
   },
   {
     id: 4,
-    title: "Resume",
-    link: "#resume",
+    title: "Experience",
+    link: "#experience",
   },
   {
     id: 5,
