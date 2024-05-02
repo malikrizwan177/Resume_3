@@ -13,8 +13,8 @@ const Hero = () => {
               <p className='text-lg lg:text-xl'>Frontend Developer</p>
               <p className='text-xs lg:text-sm my-5 font-light'>An enthusiastic web developer striving to learn and develop user friendly and responsive websites</p>
               <div className='flex flex-row gap-5 lg:gap-16 my-5'>
-                <button className='py-2 rounded-2xl shadow-lg bg-[#24272C] navshadow w-[100px] lg:w-[120px] text-center hover:-translate-y-2 duration-500 text-sm'>Learn More</button>
-                <button className='py-2 rounded-2xl shadow-lg bg-[#24272C] navshadow w-[100px] lg:w-[120px] text-center hover:-translate-y-2 duration-500 text-sm'>Contact me</button>
+                <a href='#about' className='py-2 rounded-2xl shadow-lg bg-[#24272C] navshadow w-[100px] lg:w-[120px] text-center hover:-translate-y-2 duration-500 text-sm'>Learn More</a>
+                <a href='#contact' className='py-2 rounded-2xl shadow-lg bg-[#24272C] navshadow w-[100px] lg:w-[120px] text-center hover:-translate-y-2 duration-500 text-sm'>Contact me</a>
               </div>
             </div>
         </div>
