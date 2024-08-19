@@ -15,7 +15,7 @@ const About = () => {
       <div className="flex flex-col text-center lg:text-start  overflow-hidden">
         <p className="heading">About me</p>
         <p className="text-xs lg:text-base my-5 font-light">
-            I'm a Software Enginner with over 2 years of Experience in Frontend Web Development using React and Tailwind CSS. I've started my journey in the world of web development through my first remote internship where i built responsive lading pages through figma design files. To furthur enhance my skills in web development, I completed a remote MERN Stack Internship where i build real world projects using Vite+React and Tailwind CSS for the frontend and Node + Express + MonogDB for the backend.
+            I'm a Software Enginner with over 2 years of Experience in Frontend Web Development using React and Tailwind CSS. I've started my journey in the world of web development through my first remote internship where i built responsive landing pages through figma design files. To further enhance my skills in web development, I completed a remote MERN Stack Internship where i built real world projects using Vite+React and Tailwind CSS for the frontend and Node + Express + MonogDB for the backend.
         </p>
       </div>
       </ScrollAnimation>
