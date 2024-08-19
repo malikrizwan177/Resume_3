@@ -15,10 +15,7 @@ const About = () => {
       <div className="flex flex-col text-center lg:text-start  overflow-hidden">
         <p className="heading">About me</p>
         <p className="text-xs lg:text-base my-5 font-light">
-            I am actively seeking opportunities to apply my acquired skills and
-            knowledge to real-world projects. My educational background has equipped
-            me with a solid foundation in HTML, CSS and JavaScript. Additionally, I have gained practical experience through
-            hands-on projects, both independently and collaboratively.
+            I'm a Software Enginner with over 2 years of Experience in Frontend Web Development using React and Tailwind CSS. I've started my journey in the world of web development through my first remote internship where i built responsive lading pages through figma design files. To furthur enhance my skills in web development, I completed a remote MERN Stack Internship where i build real world projects using Vite+React and Tailwind CSS for the frontend and Node + Express + MonogDB for the backend.
         </p>
       </div>
       </ScrollAnimation>
