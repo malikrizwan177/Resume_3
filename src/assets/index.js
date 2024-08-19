@@ -16,6 +16,7 @@ import nodejs from "./nodejs.png";
 import mongodb from "./mongodb.png";
 import figma from "./figma.png";
 import wordpress from "./wordpress-logo.png"
+import loader_gif from "./loader_gif.gif"
 
 export {
   menuBar,
@@ -35,5 +36,6 @@ export {
   nodejs,
   mongodb,
   figma,
-  wordpress
+  wordpress,
+  loader_gif
 };
