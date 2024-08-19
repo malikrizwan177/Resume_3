@@ -1,3 +1,15 @@
+@font-face {
+  font-family: almarai;
+  src: local('almarai'),
+      url('../src/assets/fonts/Almarai/Almarai-Regular.ttf');
+}
+
+@font-face {
+  font-family: proxima_nova;
+  src: local('almarai'),
+      url('../src/assets/fonts/Proxima Nova/ProximaNova-Regular.ttf');
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
