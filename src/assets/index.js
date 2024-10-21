@@ -17,6 +17,9 @@ import mongodb from "./mongodb.png";
 import figma from "./figma.png";
 import wordpress from "./wordpress-logo.png"
 import loader_gif from "./loader_gif.gif"
+import resume4 from "./resume_4.png"
+import harryphoto from "./harryphoto.png"
+import bluecomm from "./bluecomm.png"
 
 export {
   menuBar,
@@ -37,5 +40,8 @@ export {
   mongodb,
   figma,
   wordpress,
-  loader_gif
+  loader_gif,
+  resume4,
+  harryphoto,
+  bluecomm
 };

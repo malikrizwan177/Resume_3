@@ -1,4 +1,4 @@
-import { brainwave, figma, hotelhaveli, html, javascript, mongodb, nodejs, css, react, resume1, resume2, tailwind, wordpress } from "../assets";
+import { brainwave, figma, html, javascript, mongodb, nodejs, css, react, resume4, harryphoto, bluecomm, tailwind, wordpress } from "../assets";
 
 export const Nav = [
   {
@@ -31,31 +31,31 @@ export const Nav = [
 export const projectItems = [
   {
     id: 1,
-    img: resume1,
-    title: "Resume#1",
-    desc: "An older Resume made with React, Custom CSS and AntDesign",
-    link: "https://resume-lovat-eta.vercel.app/"
+    img: resume4,
+    title: "Resume#4",
+    desc: "The latest Portfolio resume, made with Vite+React and TailwindCSS",
+    link: "https://resume-4-swart.vercel.app/"
   },
   {
     id: 2,
-    img: resume2,
-    title: "Resume#2",
-    desc: "A resume made with React, Three.js, Framer Motion and Email.js",
-    link: "https://resume-2-two.vercel.app/"
+    img: harryphoto,
+    title: "Harry Photo - Photo Gallery Website",
+    desc: "A client project, made with MERN stack during my second internship",
+    link: "https://harry-photo-frontend.vercel.app/"
   },
   {
     id: 3,
+    img: bluecomm,
+    title: "Blucomm Technolgies - Official Website",
+    desc: "An official MERN stack website of the company",
+    link: "https://blucomtechnologies.com/"
+  },
+  {
+    id: 4,
     img: brainwave,
     title: "Brainwave",
     desc: "An AI website's frontend made with React and Tailwind CSS",
     link: "https://brainwave-theta-ten.vercel.app/"
-  },
-  {
-    id: 4,
-    img: hotelhaveli,
-    title: "Hotel Haveli One",
-    desc: "An official webpage for Hotel Haveli One made with Wordpress and Elementor",
-    link: "https://hotelhavelione.com/"
   },
 ]
 
