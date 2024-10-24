@@ -11,7 +11,7 @@ const About = () => {
         alt="aboutImage"
         className="w-[180px] lg:w-[300px] h-[180px] lg:h-[300px] rounded-[20%] heroImgshadow my-5"
       />
-      <ScrollAnimation animateIn="fadeInRight">
+      <ScrollAnimation animateIn="fadeIn">
       <div className="flex flex-col text-center lg:text-start  overflow-hidden">
         <p className="heading">About me</p>
         <p className="text-xs lg:text-base my-5 font-light">
